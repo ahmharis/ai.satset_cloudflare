@@ -1,0 +1,9 @@
+{
+  "name": "tim-ai-satset",
+  "version": "1.0.0",
+  "description": "Aplikasi Lisensi AI Satset",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^10.14.1"
+  }
+}
