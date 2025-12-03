@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Aplikasi Lisensi AI Satset",
   "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build Complete (Static Assets)'",
+    "deploy": "mkdir -p dist && cp index.html dist/index.html && cp -r functions dist/functions"
+  },
   "dependencies": {
     "firebase": "^10.14.1"
   }
